@@ -30,35 +30,3 @@ def clean_list(line):
     return new_list
 
 print(clean_list(get_offer(int(input('Количество слов: ')))))
-
-
-
-
-#     for x in line:
-#         for y in line:
-#             for z in line:
-#                 print(line)
-
-
-# # n = random.choices(line)
-# # print(line)
-# # print(n)
-
-# # a = "авб абв бав абв вба бав вба абв абв абв"
-
-
-
-# # b = a.replace("абв", "")
-# # print(b.replace("  ", " "))
-
-# # text = 'ваб вба абв орп бва абв'
-# # print(text)
-
-
-# # def del_some_words(text):
-# #     text = list(filter(lambda x: 'абв' not in x, text.split()))
-# #     return " ".join(text)
-
-
-# text = del_some_words(text)
-# print(text)
